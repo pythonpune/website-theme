@@ -107,8 +107,8 @@ googleAnalytics = ""
   # Recent section
   [params.recent]
     enable = true
-    title = "Recent Events"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "What's happening?"
+    subtitle = "Activities happening in Python Pune community"
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
@@ -116,15 +116,15 @@ googleAnalytics = ""
     # Replace them with your own.
     [[params.recent.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
+      date = "29 June 2019"
+      title = "CFP open for July Python Pune 2019 meetup"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.recent.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "1 July 2019"
+      title = "Host July Python Pune meetup at your place"
+      description = "We are looking for venue to arrange July Python Pune meetup. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.recent.events]]
       img = "3.jpg"
