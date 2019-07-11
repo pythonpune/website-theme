@@ -27,6 +27,10 @@
       {{ partial "clients.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.join.enable }}
+      {{ partial "join.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.contact.enable }}
       {{ partial "contact.html" . }}
     {{ end }}

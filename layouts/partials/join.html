@@ -1,0 +1,25 @@
+{{ "<!-- Join Us -->" | safeHTML }}
+<section id="join">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.join.title }}{{ . }}{{ end }}</h2>
+        <h3 class="section-subheading text-muted">{{ with .Site.Params.join.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+      </div>
+    </div>
+    <div class="row flexbox{{ if .Site.Params.join.center }} flexbox-center{{ end }}">
+    {{ range .Site.Params.join.row }}
+      {{ range .list }}
+        <div class="col-sm-4 col text-center">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-square fa-stack-2x text-primary"></i>
+              <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
+            <p class="text-muted">{{ .description | markdownify }}</p>
+          </div>
+       {{ end }}
+    {{ end }}
+    </div>
+  </div>
+</section>

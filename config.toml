@@ -52,6 +52,7 @@ googleAnalytics = ""
     recent = "Events"
     portfolio = "Meetings"
     team = "Team"
+    join = "Join Us"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -204,6 +205,27 @@ googleAnalytics = ""
         ["fa-facebook", "#"],
         ["fa-linkedin", "#"]
       ]
+
+  # Join us section
+  [params.join]
+    enable = true
+    center = true
+    title = "How to join us?"
+    subtitle = "Easy to connect us with these open platforms"
+
+    [[params.join.row]]
+
+    [[params.join.row.list]]
+      icon = "fa-comments-o"
+      title = "IRC Channel"
+      description = "Chat with us on IRC channel <b>#pythonpune</b> at freenode."
+      url = "#"
+
+    [[params.join.row.list]]
+      icon = "fa-envelope-o"
+      title = "Mailing list"
+      description = "Join Python Pune mailing group to get important announcements and participate in discussions."
+      url = "https://groups.google.com/forum/#!forum/pythonpune"
 
   # Client section
     [params.clients_list]
