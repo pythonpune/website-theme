@@ -149,14 +149,14 @@ googleAnalytics = ""
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [params.portfolio.modal]
-      client = "Client"
+      client = "Link"
       date = "Date"
       category = "Category"
-      buttonText = "Close project"
+      buttonText = "Close"
 
   # Team section
   [params.team]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Our amazing team"
@@ -207,7 +207,7 @@ googleAnalytics = ""
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
