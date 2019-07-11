@@ -4,7 +4,7 @@ subtitle: Meetup in June
 date: 2019-06-08
 img: june-2019-meetup.jpg
 preview: june-2019-meetup.jpg
-client: Meetup page
+client: Event page
 clientLink: "https://www.meetup.com/PythonPune/events/261809068/"
 category: Talks
 description: We met with some interesting ideas to share amongst the community. Akshay and Vishal conducted a deep dive in session about logging with Python . Bhavin showed how to customize your editing needs with GNU Emacs. Chaitanya gave an insight about his web app which helps in controlling his AC at home. Pythonistas are always welcome to showcase their work or talk about some cool projects and spread knowledge in the community. All you need to do is create an issue [here](https://github.com/pythonpune/meetup-talks/issues/new) mentioning all the details.
