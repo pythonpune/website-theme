@@ -88,19 +88,19 @@ googleAnalytics = ""
     [[params.about.row]]
 
     [[params.about.row.list]]
-      icon = "fa-shopping-cart"
+      icon = "fa-users"
       title = "Community"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.about.row.list]]
-      icon = "fa-laptop"
+      icon = "fa-code"
       title = "Develop"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.about.row.list]]
-      icon = "fa-lock"
+      icon = "fa-meetup"
       title = "Meetups"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
