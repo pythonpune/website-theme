@@ -45,9 +45,9 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Python Pune"
+    brand = "PythonPune"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
+    logo = "PythonPune_banner.svg"
     about = "About"
     recent = "Events"
     portfolio = "Meetings"
@@ -75,9 +75,10 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Python Pune"
+    title = "Welcome To PythonPune"
     subtitle = "It's nice to meet you"
     buttonText = "Tell me more"
+    img = "PythonPune_banner.svg"
 
   # About section
   [params.about]
