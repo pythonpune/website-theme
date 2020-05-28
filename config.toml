@@ -84,34 +84,34 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "About Us"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "This is the community of Python programmers in Pune and beyond."
 
     [[params.about.row]]
 
     [[params.about.row.list]]
       icon = "fa-users"
       title = "Community"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = ""
       url = "#"
 
     [[params.about.row.list]]
       icon = "fa-code"
       title = "Develop"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = ""
       url = "#"
 
     [[params.about.row.list]]
       icon = "fa-meetup"
       title = "Meetups"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = ""
       url = "#"
 
   # Recent section
   [params.recent]
-    enable = true
+    enable = false
     title = "What's happening?"
-    subtitle = "Activities happening in Python Pune community"
-    endpoint = "Be part<br>of our<br>story!"
+    subtitle = "Activities happening in the community"
+    endpoint = "Completed 5 Years!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -148,7 +148,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Previous Meetings"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = ""
 
     [params.portfolio.modal]
       client = "Link"

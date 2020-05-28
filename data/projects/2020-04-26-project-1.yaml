@@ -1,0 +1,10 @@
+modalID: 1
+title: April PythonPune meetup 2020
+subtitle: Monthly meeting.
+date: 2020-04-26
+img: june-2019-meetup.jpg
+preview: june-2019-meetup.jpg
+client: Event page
+clientLink: "https://www.meetup.com/PythonPune/events/270019437/"
+category: Security, Programming
+description: The agenda was [Exploiting and understanding CVE of PyYAML](https://github.com/pythonpune/meetup-talks/issues/92) by Dhananjay Arunesh and [Time Complexity, Comparing C++(vector) and Python(list)](https://github.com/pythonpune/meetup-talks/issues/87) by AmitKumar.
