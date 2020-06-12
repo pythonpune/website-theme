@@ -15,6 +15,7 @@
         </ul>
       </div>
       <div class="col-md-4">
+        {{ if .IsHome }}
         <ul class="list-inline quicklinks">
 
           {{ range .Site.Params.footer.quicklinks }}
@@ -22,6 +23,7 @@
           {{ end }}
 
         </ul>
+        {{ end }}
       </div>
     </div>
   </div>
