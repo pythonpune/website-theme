@@ -1,9 +1,19 @@
-<!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-
-  {{ partial "head.html" . }}
-
-  <body id="page-top" class="index">
-    {{ partial "nav.html" . }}
-  </body>
-</html>
+{{ define "main" }}
+<div class="container" role="main">
+  <br><br><br><br><br>
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+          <h1>{{ .Title }}</h1>
+          <ul id="list">
+            {{ range .Data.Pages }}
+            <li>{{ .Site.Params.DateForm | default "Jan 2, 2006" | .Date.Format }} -
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </li>
+            {{ end }}
+          </ul>
+      </article>
+    </div>
+  </div>
+</div>
+{{ end }}
