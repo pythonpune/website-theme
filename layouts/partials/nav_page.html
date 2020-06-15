@@ -1,8 +1,15 @@
 {{ "<!-- Navigation -->" | safeHTML }}
-<nav class="navbar navbar-fixed-top navbar-inverse">
+<nav class="navbar navbar-default navbar-fixed-top" style="background: #000000;">
   <div class="container">
 
-    <div class="navbar-header">
+    {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
       {{ if .Site.Params.navigation.logo }}
         <a class="navbar-brand page-scroll" href="{{ if .IsHome }}/#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}">
           {{ $url := printf "img/%s" .Site.Params.navigation.logo }}
@@ -13,6 +20,18 @@
           {{ .Site.Params.navigation.brand }}
         </a>
       {{ end }}
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="/events">Events</a>
+        </li>
+        <li>
+          <a href="/newsletters">Newsletters</a>
+        </li>
+      </ul>
     </div>
     {{ "<!-- /.navbar-collapse -->" | safeHTML }}
   </div>
