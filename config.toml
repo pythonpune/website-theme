@@ -327,6 +327,11 @@ googleAnalytics = ""
       title = "Twitter"
 
     [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "https://www.facebook.com/pythonpune"
+      title = "Facebook"
+
+    [[params.footer.social]]
       icon = "fa-meetup"
       link = "https://www.meetup.com/PythonPune"
       title = "Meetup.com"
