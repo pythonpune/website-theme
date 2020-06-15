@@ -327,14 +327,9 @@ googleAnalytics = ""
       title = "Twitter"
 
     [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-      title = "Facebook"
-
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
-      title = "LinkedIn"
+      icon = "fa-meetup"
+      link = "https://www.meetup.com/PythonPune"
+      title = "Meetup.com"
 
     [[params.footer.quicklinks]]
       text = "Cover photo by Edwin Andrade on Unsplash"
