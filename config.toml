@@ -360,5 +360,9 @@ googleAnalytics = ""
       title = "Meetup.com"
 
     [[params.footer.quicklinks]]
-      text = "Cover photo by Edwin Andrade on Unsplash"
-      link = "https://unsplash.com/photos/4V1dC_eoCwg"
+      text = "Privacy Policy"
+      link = "#"
+
+    [[params.footer.quicklinks]]
+      text = "Terms of Use"
+      link = "#"
