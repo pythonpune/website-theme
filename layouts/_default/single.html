@@ -9,9 +9,11 @@
 	{{- end }}
 	</div>
         <h1>{{ .Title }}</h1>
+	{{- if .Date }}
 	<div class="post-date">
         {{ .Site.Params.DateForm | default "Jan 2, 2006" | .Date.Format }}
 	</div>
+	{{- end }}
         {{ .Content }}
 
         {{ if .Params.tags }}
