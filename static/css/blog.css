@@ -10,3 +10,7 @@ h6 {
 article p, article {
     font-size: 18px;
 }
+
+.post-date {
+    color: grey;
+}
