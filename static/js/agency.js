@@ -4,7 +4,7 @@ $(document).ready(function(){
     checkReCaptcha()
   }
 
-  $("a").on('click', function(event) {
+  $('.nav li a').on('click', function(event) {
     if (this.hash && window.location.pathname == "/") {
       event.preventDefault();
       var hash = this.hash;
