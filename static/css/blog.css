@@ -14,3 +14,7 @@ article p, article {
 .post-date {
     color: grey;
 }
+
+.blog-post h1 {
+    margin: 0;
+}
