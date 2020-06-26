@@ -9,11 +9,14 @@
 	{{- end }}
 	</div>
         <h1>{{ .Title }}</h1>
-	{{- if .Date }}
 	<div class="post-date">
+	{{- if .Date }}
         {{ .Site.Params.DateForm | default "Jan 2, 2006" | .Date.Format }}
-	</div>
 	{{- end }}
+	{{- with .Params.author }}
+	by {{ . }}
+	{{- end }}
+	</div>
         <hr>
         {{ .Content }}
 
