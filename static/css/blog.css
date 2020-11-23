@@ -18,3 +18,7 @@ article p, article {
 .blog-post h1 {
     margin: 0;
 }
+
+.blog-post img {
+    max-width: 100%;
+}
