@@ -43,6 +43,10 @@
       {{ partial "modals.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.floatbutton.enable }}
+      {{ partial "floatbutton.html" . }}
+    {{ end }}
+
     {{ partial "js.html" . }}
   </body>
 </html>

@@ -1,0 +1,4 @@
+{{ "<!-- Float button -->" | safeHTML }}
+<a href="{{ with .Site.Params.floatbutton.link }}{{ . }}{{ end }}" class="float" target="_blank" title="{{ with .Site.Params.floatbutton.text }}{{ . }}{{ end }}">
+  <i class="fa fa-comments my-float"></i>
+</a>
