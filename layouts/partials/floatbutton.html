@@ -1,4 +1,4 @@
 {{ "<!-- Float button -->" | safeHTML }}
-<a href="{{ with .Site.Params.floatbutton.link }}{{ . }}{{ end }}" class="float" target="_blank">
+<a href="{{ with .Site.Params.floatbutton.link }}{{ . }}{{ end }}" class="float" target="_blank" title="{{ with .Site.Params.floatbutton.description }}{{ . }}{{ end }}">
   <p class="my-float">{{.Site.Params.floatbutton.text | markdownify }}</p>
 </a>
